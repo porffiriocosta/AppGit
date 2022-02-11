@@ -1,0 +1,114 @@
+.home-container {
+  padding: 40px;
+}
+
+.start-button {
+  background-color: #1890ff;
+  color: #fff;
+  font-size: 14px;
+}
+.home-container h1 {
+  position: absolute;
+  width: 280px;
+  height: 64px;
+  left: 41px;
+  top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.home-container p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #7e7e7e;
+  margin-top: 30px;
+}
+
+@media (min-width: 576px) {
+  .home-container h1 {
+    position: absolute;
+    width: 450px;
+    height: 64px;
+    left: 41px;
+    top: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  .start-button {
+    background-color: #1890ff;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .home-container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #7e7e7e;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .home-container h1 {
+    position: absolute;
+    width: 450px;
+    height: 64px;
+    left: 41px;
+    top: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  .start-button {
+    background-color: #1890ff;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .home-container p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #7e7e7e;
+    margin-top: 30px;
+  }
+}
